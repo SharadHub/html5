@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 100%;
+    color: whitesmoke;
+    background: linear-gradient(to right, #833AB4, #FD1D1D, #FCB045);
+    font-size: 1rem;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 32px;
+    letter-spacing: 0.5px;
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav-item{
+    display: flex;
+
+}
+
+.nav-links{
+    text-decoration: none;
+    color: inherit;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+  background-color: rgba(255,255,255,0.15);
+}
