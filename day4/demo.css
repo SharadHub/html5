@@ -1,0 +1,14 @@
+body{
+    margin-left: 20px;
+}
+.box {
+  background: lightblue;
+  width: 200px;
+  height: 100px;
+  border: 2px solid black;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 24px;
+  color: darkblue;
+}

@@ -1,0 +1,14 @@
+.target {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: repeating-radial-gradient(circle at center,
+            yellow 0, yellow 30px,
+            red 30px, red 60px,
+            blue 60px, blue 90px,
+            black 90px, black 120px,
+            white 120px, white 150px);
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+}

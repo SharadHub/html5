@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    /* background:  url("bg.jpeg");  */
+    background: url("sakura.jpeg") no-repeat right top;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 100%;
+    gap: 1rem;
+    background: linear-gradient(to right, #833AB4, #FD1D1D, #FCB045); 
+
+    /* opacity: 1; */
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 3rem;
+}
+
+.nav-list{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+
+.nav-links{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+  background-color: rgba(255,255,255,0.15);
+}
+
+.hero-section{
+    display: flex;   
+    flex-direction: column;
+    justify-content:center;
+    padding-left: 5rem;
+    
+}
+
+.gif{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}

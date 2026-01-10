@@ -1,0 +1,7 @@
+.shaded-container{
+    background: #666;
+    display: flex;
+    border-radius: 900px;
+    padding: 2rem 1rem;
+    margin: 15rem;
+}
